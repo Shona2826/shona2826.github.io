@@ -61,3 +61,17 @@ html, body
     height: 2px;
     width: 100%;
 }
+
+.parallax-intro {
+    padding-top: 300px;
+    background: transparent;
+    height:350px;
+}
+
+.parallax-intro .page-intro-content .introduction {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    padding:200px,100px;
+
+}
