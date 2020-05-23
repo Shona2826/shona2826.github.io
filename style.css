@@ -9,7 +9,7 @@ html, body
 {
     font-family: Raleway;
     margin: 0 auto;
-    margin-bottom: 20px !important;
+    margin-bottom: 2px !important;
 	padding: 1.8em 3em;
 	text-align: center;
 }
@@ -28,7 +28,7 @@ html, body
 
 .teal
 {
-    background: #0b1140;
+    background: #000000;
 }
 
 /* Border from Y to X  */
@@ -70,9 +70,12 @@ html, body
 
 .parallax-intro .page-intro-content .introduction {
     z-index: 2;
+    font-size: 60px;
     position: relative;
     text-align: center;
-    padding:200px,100px;
+    font-weight: bold;
+    vertical-align: text-top;
+    color:#fff;
 
 }
 .aboutme{
