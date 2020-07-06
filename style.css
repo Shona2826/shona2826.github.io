@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
-html, body
+html,body
 {
     margin: 0px;
     background-color: black !important;
@@ -182,7 +182,7 @@ html, body
     font-family: sans-serif;
     text-align: center;
 }
-body .card {
+.project-section .card {
   width: 800px;
   height: 400px;
   background: transparent;
@@ -197,14 +197,14 @@ body .card {
   -moz-border-radius: 10px;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
 }
-body .card_left {
+.project-section .card_left {
   width: 40%;
   height: 400px;
   float: left;
   overflow: hidden;
   background: transparent;
 }
-body .card_left img {
+.project-section .card_left img {
   width: 100%;
   height: auto;
   border-radius: 10px 0 0 10px;
@@ -212,7 +212,7 @@ body .card_left img {
   -moz-border-radius: 10px 0 0 10px;
   position: relative;
 }
-body .card_right {
+.project-section .card_right {
   width: 60%;
   float: left;
   background: #000000;
@@ -221,7 +221,7 @@ body .card_right {
   -webkit-border-radius: 0 10px 10px 0;
   -moz-border-radius: 0 10px 10px 0;
 }
-body .card_right h1 {
+.project-section .card_right h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -231,12 +231,12 @@ body .card_right h1 {
   padding: 0 0 0 40px;
   letter-spacing: 1px;
 }
-body .card_right__details ul {
+.project-section .card_right__details ul {
   list-style-type: none;
   padding: 0 0 0 40px;
   margin: 10px 0 0 0;
 }
-body .card_right__details ul li {
+.project-section .card_right__details ul li {
   display: inline;
   color: #e3e3e3;
   font-family: 'Montserrat', sans-serif;
@@ -244,50 +244,50 @@ body .card_right__details ul li {
   font-size: 14px;
   padding: 0 40px 0 0;
 }
-body .card_right__rating__stars {
+.project-section .card_right__rating__stars {
   position: relative;
   right: 160px;
   margin: 10px 0 10px 0;
   /***** CSS Magic to Highlight Stars on Hover *****/
   /* hover previous stars in list */
 }
-body .card_right__rating__stars fieldset, body .card_right__rating__stars label {
+.project-section .card_right__rating__stars fieldset, .project-section .card_right__rating__stars label {
   margin: 0;
   padding: 0;
 }
-body .card_right__rating__stars .rating {
+.project-section .card_right__rating__stars .rating {
   border: none;
 }
-body .card_right__rating__stars .rating > input {
+.project-section .card_right__rating__stars .rating > input {
   display: none;
 }
-body .card_right__rating__stars .rating > label:before {
+.project-section .card_right__rating__stars .rating > label:before {
   margin: 5px;
   font-size: 1.25em;
   display: inline-block;
   content: "\f005";
   font-family: FontAwesome;
 }
-body .card_right__rating__stars .rating > .half:before {
+.project-section .card_right__rating__stars .rating > .half:before {
   content: "\f089";
   position: absolute;
 }
-body .card_right__rating__stars .rating > label {
+.project-section .card_right__rating__stars .rating > label {
   color: #ddd;
   float: right;
 }
-body .card_right__rating__stars .rating > input:checked ~ label,
-body .card_right__rating__stars .rating:not(:checked) > label:hover,
-body .card_right__rating__stars .rating:not(:checked) > label:hover ~ label {
+.project-section .card_right__rating__stars .rating > input:checked ~ label,
+.project-section .card_right__rating__stars .rating:not(:checked) > label:hover,
+.project-section .card_right__rating__stars .rating:not(:checked) > label:hover ~ label {
   color: #FFD700;
 }
-body .card_right__rating__stars .rating > input:checked + label:hover,
-body .card_right__rating__stars .rating > input:checked ~ label:hover,
-body .card_right__rating__stars .rating > label:hover ~ input:checked ~ label,
-body .card_right__rating__stars .rating > input:checked ~ label:hover ~ label {
+.project-section .card_right__rating__stars .rating > input:checked + label:hover,
+.project-section .card_right__rating__stars .rating > input:checked ~ label:hover,
+.project-section .card_right__rating__stars .rating > label:hover ~ input:checked ~ label,
+.project-section .card_right__rating__stars .rating > input:checked ~ label:hover ~ label {
   color: #FFED85;
 }
-body .card_right__review p {
+.project-section .card_right__review p {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -296,7 +296,7 @@ body .card_right__review p {
   margin: 10px 0 10px 0;
   line-height: 20px;
 }
-body .card_right__review a {
+.project-section .card_right__review a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -304,11 +304,11 @@ body .card_right__review a {
   color: #ffda00;
   margin: 0;
 }
-body .card_right__button {
+.project-section .card_right__button {
   padding: 0 0 0 40px;
   margin: 30px 0 0 0;
 }
-body .card_right__button a {
+.project-section .card_right__button a {
   color: #ffda00;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
@@ -325,7 +325,7 @@ body .card_right__button a {
   -webkit-transition-duration: .5s;
   transition-duration: .5s;
 }
-body .card_right__button a:hover {
+.project-section .card_right__button a:hover {
   color: #000000;
   background-color: #ffda00;
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/rFQ5dHA.png);
