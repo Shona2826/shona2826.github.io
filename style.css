@@ -180,6 +180,7 @@ html,body
     color:white;
     font-weight: 900;
     font-family: sans-serif;
+    text-align: center;
 }
  .card {
   width: 800px;
