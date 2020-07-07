@@ -2,35 +2,83 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Parallax Depth Cards</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'><link rel="stylesheet" href="./style.css">
+  <title>CodePen - Movie Card Interactive UI With Pure CSS3 Animation Rating</title>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1 class="title">Hover over the cards</h1>
-
-<div id="app" class="container">
-  <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
-    <h1 slot="header">Canyons</h1>
-    <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  </card>
-  <card data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-    <h1 slot="header">Beaches</h1>
-    <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  </card>
-  <card data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-    <h1 slot="header">Trees</h1>
-    <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  </card>
-  <card data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
-    <h1 slot="header">Lakes</h1>
-    <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  </card>
+<div class='card'>
+  <div class='card_left'>
+    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/h8fnwL1.png'>
+  </div>
+  <div class='card_right'>
+    <h1>KILL  BILL:  VOL.  1</h1>
+    <div class='card_right__details'>
+      <ul>
+        <li>2003</li>
+        <li>111 min</li>
+        <li>Action</li>
+      </ul>
+      <div class='card_right__rating'>
+        <div class='card_right__rating__stars'>
+          <fieldset class='rating'>
+            <input id='star10' name='rating' type='radio' value='10'>
+            <label class='full' for='star10' title='10 stars'></label>
+            <input id='star9half' name='rating' type='radio' value='9 and a half'>
+            <label class='half' for='star9half' title='9.5 stars'></label>
+            <input id='star9' name='rating' type='radio' value='9'>
+            <label class='full' for='star9' title='9 stars'></label>
+            <input id='star8half' name='rating' type='radio' value='8 and a half'>
+            <label class='half' for='star8half' title='8.5 stars'></label>
+            <input id='star8' name='rating' type='radio' value='8'>
+            <label class='full' for='star8' title='8 stars'></label>
+            <input id='star7half' name='rating' type='radio' value='7 and a half'>
+            <label class='half' for='star7half' title='7.5 stars'></label>
+            <input id='star7' name='rating' type='radio' value='7'>
+            <label class='full' for='star7' title='7 stars'></label>
+            <input id='star6half' name='rating' type='radio' value='6 and a half'>
+            <label class='half' for='star6half' title='6.5 stars'></label>
+            <input id='star6' name='rating' type='radio' value='6'>
+            <label class='full' for='star6' title='6 star'></label>
+            <input id='star5half' name='rating' type='radio' value='5 and a half'>
+            <label class='half' for='star5half' title='5.5 stars'></label>
+            <input id='star5' name='rating' type='radio' value='5'>
+            <label class='full' for='star5' title='5 stars'></label>
+            <input id='star4half' name='rating' type='radio' value='4 and a half'>
+            <label class='half' for='star4half' title='4.5 stars'></label>
+            <input id='star4' name='rating' type='radio' value='4'>
+            <label class='full' for='star4' title='4 stars'></label>
+            <input id='star3half' name='rating' type='radio' value='3 and a half'>
+            <label class='half' for='star3half' title='3.5 stars'></label>
+            <input id='star3' name='rating' type='radio' value='3'>
+            <label class='full' for='star3' title='3 stars'></label>
+            <input id='star2half' name='rating' type='radio' value='2 and a half'>
+            <label class='half' for='star2half' title='2.5 stars'></label>
+            <input id='star2' name='rating' type='radio' value='2'>
+            <label class='full' for='star2' title='2 stars'></label>
+            <input id='star1half' name='rating' type='radio' value='1 and a half'>
+            <label class='half' for='star1half' title='1.5 stars'></label>
+            <input id='star1' name='rating' type='radio' value='1'>
+            <label class='full' for='star1' title='1 star'></label>
+            <input id='starhalf' name='rating' type='radio' value='half'>
+            <label class='half' for='starhalf' title='0.5 stars'></label>
+          </fieldset>
+        </div>
+      </div>
+      <div class='card_right__review'>
+        <p>The lead character, called 'The Bride,' was a member <br/> of the Deadly Viper Assassination Squad, led by her <br/> lover 'Bill.' Upon realizing she was pregnant with Bill's<br/> child, 'The Bride' decided to escape her life as a killer.<br/> She fled to Texas, met a young man, who, on the day<br/> of their wedding rehearsal was gunned down by....</p>
+        <a href='http://www.imdb.com/title/tt0266697/plotsummary?ref_=tt_stry_pl' target='_blank'>Read more</a>
+      </div>
+      <div class='card_right__button'>
+        <a href='https://www.youtube.com/watch?v=ot6C1ZKyiME' target='_blank'>WATCH TRAILER</a>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
