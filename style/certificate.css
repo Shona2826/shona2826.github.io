@@ -120,26 +120,33 @@ body h1 {
   transition: all 350ms ease-in-out;
 }
 .card .card-info .card-creator {
-  padding-bottom: 0.75rem;
+  
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
+  border-style: initial;
+  border-width: 5px 20px;
+  background-color:greenyellow;
+  
+  
+  text-align: center;
 }
 
 
 .card:hover .card-creator a{
-  color:blue;
+  color:black;
+
   
 }
 
 
 .card-1 .card-img,
 .card-1 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url("../images/certificates/Coursera/97T95L3NEZ4H.pdf");
+  background-image: url("../images/Certificates/Google_codejam2019.pdf");
 }
 
 .card-2 .card-img,
 .card-2 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/C-v1p2DTakA);
+  background-image: url(https://source.unsplash.com/C-v1p2DTakA);
 }
 
 .card-3 .card-img,
