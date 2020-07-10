@@ -137,11 +137,15 @@ body h1 {
 
   
 }
+.card:hover .card-img-hovered {
+  opacity: ;
+  
+}
 
 
 .card-1 .card-img,
 .card-1 .card-img-hovered {
-  background-image: url("../images/Certificates/Google_codejam2019.pdf");
+  background-image: url(../images/Certificates/1.png);
 }
 
 .card-2 .card-img,
