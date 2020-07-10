@@ -160,5 +160,5 @@ body h1 {
 
 .card-4 .card-img,
 .card-4 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url(https://source.unsplash.com/zAi2Is48-MA);
+  background-image: url(../images/Certificates/4.png);
 }
