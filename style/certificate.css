@@ -138,14 +138,14 @@ body h1 {
   
 }
 .card:hover .card-img-hovered {
-  opacity: ;
+  opacity: 0.75;
   
 }
 
 
 .card-1 .card-img,
 .card-1 .card-img-hovered {
-  background-image: url(../images/Certificates/1.png);
+  background-image: url(../images/Certificates/7.png);
 }
 
 .card-2 .card-img,
