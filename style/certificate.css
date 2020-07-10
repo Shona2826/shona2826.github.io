@@ -150,7 +150,7 @@ body h1 {
 
 .card-2 .card-img,
 .card-2 .card-img-hovered {
-  background-image: url(../images/Certificates/11.png);
+  background-image: url(../images/Certificates/4.png);
 }
 
 .card-3 .card-img,
@@ -160,5 +160,16 @@ body h1 {
 
 .card-4 .card-img,
 .card-4 .card-img-hovered {
-  background-image: url(../images/Certificates/4.png);
+  background-image: url(../images/Certificates/13.png);
 }
+
+.card-5 .card-img,
+.card-5 .card-img-hovered {
+  background-image: url(../images/Certificates/11.png);
+}
+
+.card-6 .card-img,
+.card-6 .card-img-hovered {
+  background-image: url(../images/Certificates/9.png);
+}
+
