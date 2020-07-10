@@ -193,3 +193,18 @@ body h1 {
   background-image: url(../images/Certificates/5.png);
 }
 
+.card-11 .card-img,
+.card-11 .card-img-hovered {
+  background-image: url(../images/Certificates/6.png);
+}
+
+.card-12 .card-img,
+.card-12 .card-img-hovered {
+  background-image: url(../images/Certificates/8.png);
+} 
+
+.card-13 .card-img,
+.card-13 .card-img-hovered {
+  background-image: url(../images/Certificates/12.png);
+}
+
