@@ -127,7 +127,8 @@ body h1 {
 
 
 .card:hover .card-creator a{
-  color:blue
+  color:blue;
+  
 }
 
 
