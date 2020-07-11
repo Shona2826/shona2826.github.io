@@ -64,15 +64,13 @@ html,body
 
 .resume{
     
-    display:block;
-    margin: 100px auto;
-    border-radius: 25px;
-    width:70%;
-    height:70%
+    display: block;
+    margin: 80px 380px;
+    border-radius: 250px;
   }
   
   .resume img{
-    border-radius: 25px;
+    border-radius: 30px;
    
   }
 
