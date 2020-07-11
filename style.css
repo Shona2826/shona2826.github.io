@@ -123,6 +123,7 @@ html,body
     color:white;
     padding-right:8px;
     font-size:16px;
+    padding-top: -30px;
 }
 #about .about-link li a i{
     width: 50px;
@@ -175,7 +176,7 @@ html,body
 
 .about-right h2{
   font-size:40px;
-  border-bottom: 1px solid white;
+  
 }
 .btn-success{
     border-radius: 0;
