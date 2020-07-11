@@ -65,7 +65,7 @@ html,body
 .resume{
     
     display: block;
-    margin: 80px 380px;
+    margin: 80px 490px;
     border-radius: 250px;
   }
   
@@ -73,10 +73,11 @@ html,body
     border-radius: 30px;
    
   }
+  .resume img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
-
- /* ===============DOWLOAD================== */
-  /* ======================================== */
 
 .download_button{
     margin: 0;
