@@ -82,7 +82,7 @@ body h1 {
 .card-container {
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
+  border-radius: 20px;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -115,7 +115,9 @@ body h1 {
 .card {
   align-self: flex-start;
   position: relative;
+  border-radius: 15px;
   width: 325px;
+  padding-bottom: 15px;
   min-width: 275px;
   margin: 1.25rem 0.75rem;
   background: white;
@@ -142,6 +144,7 @@ body h1 {
   background-position: center center;
   background-size: cover;
   width: 100%;
+  border-radius:15px;
   position: absolute;
   height: var(--card-img-height);
   top: 0;
@@ -174,16 +177,7 @@ body h1 {
   background: #505f79;
   color: #fff;
 }
-.card .card-info .card-about .card-tag.tag-news {
-  background: #36b37e;
-}
-.card .card-info .card-about .card-tag.tag-deals {
-  background: #ffab00;
-}
-.card .card-info .card-about .card-tag.tag-politics {
-  width: 71px;
-  background: #ff5630;
-}
+
 .card .card-info .card-title {
   z-index: 10;
   font-size: 1.5rem;
@@ -197,8 +191,7 @@ body h1 {
   transition: all 250ms ease-in-out;
   border-style: initial;
   border-width: 5px 20px;
-  background-color:greenyellow;
-  
+  background-color:rgb(14, 220, 235);
   
   text-align: center;
 }
