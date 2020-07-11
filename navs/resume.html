@@ -16,7 +16,7 @@
 
 </head>
 <body>
-
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
 <!-- START NAVBAR -->
 <div class="navbar">
     <div class="container teal borderYtoX">
@@ -35,5 +35,24 @@
 <div class="download_button">
     <a href="../images/downloads/suman_resume.pdf" download><button class="btn"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button></a>
 </div>
+
+<script>
+  $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+  </script>
 </body>
 </html>
