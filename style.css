@@ -330,6 +330,7 @@ html,body
     margin-right:auto;
     top: 0;
     bottom: 0;
+    border:2px solid rgb(14, 220, 235);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -362,9 +363,9 @@ html,body
   .card_right h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
     margin: 30px 0 0 0;
     padding: 0 0 0 40px;
     letter-spacing: 1px;
@@ -386,7 +387,7 @@ html,body
   .card_right__review p {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 40px 0 40px;
     letter-spacing: 1px;
     margin: 10px 0 10px 0;
@@ -395,9 +396,10 @@ html,body
   .card_right__review a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 0 0 40px;
-    color: #ffda00;
+    color: rgb(10, 239, 255);
     margin: 0;
+    
   }
   

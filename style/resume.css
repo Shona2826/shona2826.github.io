@@ -61,21 +61,20 @@ html,body
     width: 100%;
 }
 
+/* NAVBAR END */
 
+.centerit{
+    text-align:center;
+}
 .resume{
-    
     display: block;
-    margin: 80px 490px;
-    border-radius: 250px;
+    margin:15px 0px;
+
   }
   
   .resume img{
-    border-radius: 30px;
+    border-radius: 10px;
    
-  }
-  .resume img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
 
@@ -90,7 +89,7 @@ html,body
 }
 
 .btn {
-    background-color:beige;
+    background-color:rgb(18, 230, 219);
     color: black;
     padding: 15px 35px;
     cursor: pointer;
