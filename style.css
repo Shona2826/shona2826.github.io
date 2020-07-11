@@ -183,6 +183,7 @@ html,body
   font-size:40px;
   font-family: sans-serif;
   text-align: center;
+  padding-bottom: 60px;
 }
 
  
@@ -194,6 +195,7 @@ html,body
   font-weight: 900;
   font-family: sans-serif;
   text-align: center;
+  padding-bottom: 60px;
 }
   
   .cards-article {
