@@ -94,6 +94,23 @@ body h1 {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
+.certificate {
+  color:whitesmoke;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size:50px;
+  padding-left: 180px;
+  letter-spacing: -1px;
+}
+.courses{
+  color:#9D9D9D;
+  font-family: monospace;
+  font-weight: 700;
+  font-size:40px;
+  letter-spacing: -2px;
+  padding-top:30px;
+  padding-left:180px ;
+}
 
 .card {
   align-self: flex-start;
