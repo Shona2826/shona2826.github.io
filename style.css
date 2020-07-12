@@ -26,6 +26,7 @@ html,body
   text-align: center;
   font-size: 30px;
   text-decoration: none;
+  border-radius: 25px;
 }
 #back2Top:hover {
   background-color:whitesmoke;
